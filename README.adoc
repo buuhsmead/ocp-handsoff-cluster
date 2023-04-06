@@ -1,0 +1,20 @@
+= ocp-handsoff-cluster
+
+Just another OpenShift hands OFF cluster configuration
+
+== Personas & Roles
+The following enterprise personas that will interact with the Cluster have been identified.
+
+|===
+|*Persona*|*Role*|*Responsibilities*
+
+|Platform Admin|Cluster Admin (Default OpenShift cluster-admin role)|Owner of multiple OpenShift clusters, deploys operators and sets organizational policies.
+|Application Ops Team|Operator|Monitors and maintains the running applications
+| ? | ? | ?
+
+|===
+
+
+
+
+
