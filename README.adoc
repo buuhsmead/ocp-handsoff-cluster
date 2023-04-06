@@ -9,12 +9,16 @@ The following enterprise personas that will interact with the Cluster have been 
 |*Persona*|*Role*|*Responsibilities*
 
 |Platform Admin|Cluster Admin (Default OpenShift cluster-admin role)|Owner of multiple OpenShift clusters, deploys operators and sets organizational policies.
-|Application Ops Team|Operator|Monitors and maintains the running applications
+|Application Ops Team|Operator|Monitors and maintains the running applications.
+|GitOps Admin|gitops-admin|Monitors and maintains the hands off Argo CD.
 | ? | ? | ?
 
 |===
 
 
 
+== bootstrap
+
+kustomize build bootstrap/ | oc apply -f -
 
 
