@@ -1,0 +1,10 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: cluster-oauth
+
+spec:
+  source:
+    repoURL: https://github.com/buuhsmead/ocp-handsoff-cluster.git
+    targetRevision: HEAD
+    path: cluster-config/overlays/default/cluster-components/cluster-oauth
